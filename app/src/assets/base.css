@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+.tooltip .tooltip-inner {
+  background: rgb(69, 69, 69);
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background: #1e1e1e;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.dg-main-content, .dg-main-content *, .dg-container--has-input .dg-content-footer {
+  color: white;
+  background: #333;
+}
+
+.dg-btn--cancel, .dg-btn--cancel * {
+  background-color: #0096D9;
+}
